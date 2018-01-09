@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.requirements << 'none'
 
-  s.add_dependency 'solidus', ['>= 1.2.0.alpha', '< 1.3.0']
+  s.add_dependency 'solidus', ['2.2.1']
   s.add_dependency 'talon_one', ['0.0.5']
 end
